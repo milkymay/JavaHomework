@@ -1,16 +1,16 @@
 package expression;
 
 public class Variable<T> implements TripleExpression<T> {
-    private String argName;
-    public Variable (String argName) {
-        this.argName = argName;
+    private String arg;
+    public Variable (String arg) {
+        this.arg = arg;
     }
 
     public T evaluate(T x, T y, T z) {
-        if (!(argName.equals("x") || argName.equals("y") || argName.equals("z"))) {
-            throw new IllegalArgumentException("Unexpected variable " + argName);
+        if (!(arg.equals("x") || arg.equals("y") || arg.equals("z"))) {
+            throw new IllegalArgumentException("Unexpected variable " + arg);
         } else {
-            return argName.equals("x") ? x : argName.equals("y") ? y : z;
+            return arg.equals("x") ? x : arg.equals("y") ? y : z;
         }
     }
 }

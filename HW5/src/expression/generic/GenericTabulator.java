@@ -13,17 +13,23 @@ public class GenericTabulator implements Tabulator {
     public Object[][][] tabulate(String mode, String expression, int x1, int x2, int y1, int y2, int z1, int z2) throws Exception {
         switch (mode) {
             case "i":
-                return giveTable(this::applyInteger, new ExpressionParser<Integer>(new IntegerAlgebra()).parse(expression), x1, x2, y1, y2, z1, z2);
+                return setTable(this::applyInteger, 
+                        new ExpressionParser<>(new IntegerAlgebra()).parse(expression), 
+                        x1, x2, y1, y2, z1, z2);
             case "d":
-                return giveTable(this::applyDouble, new ExpressionParser<Double>(new DoubleAlgebra()).parse(expression), x1, x2, y1, y2, z1, z2);
+                return setTable(this::applyDouble, 
+                        new ExpressionParser<>(new DoubleAlgebra()).parse(expression), 
+                        x1, x2, y1, y2, z1, z2);
             case "bi":
-                return giveTable(this::applyBigInteger, new ExpressionParser<BigInteger>(new BigIntegerAlgebra()).parse(expression), x1, x2, y1, y2, z1, z2);
+                return setTable(this::applyBigInteger,
+                        new ExpressionParser<>(new BigIntegerAlgebra()).parse(expression), 
+                        x1, x2, y1, y2, z1, z2);
             default:
                 throw new UnsupportedTypeException(mode);
         }
     }
 
-    private <T> Object[][][] giveTable(Function<Integer, T> cast, TripleExpression<T> expression, int x1, int x2, int y1, int  y2, int z1, int z2) {
+    private <T> Object[][][] setTable(Function<Integer, T> cast, TripleExpression<T> expression, int x1, int x2, int y1, int  y2, int z1, int z2) {
         Object[][][] result = new Object[x2 - x1 + 1][y2 - y1 + 1][z2 - z1 + 1];
         for (int x = 0; x <= x2 - x1; x++) {
             for (int y = 0; y <= y2 - y1; y++) {

@@ -1,7 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7296f11b-e341-4951-8b2e-6fb082177e03" name="Default Changelist" comment="" />
+    <list default="true" id="7296f11b-e341-4951-8b2e-6fb082177e03" name="Default Changelist" comment="ArrayQueue is not reversed anymore&#10;Required changes are applied (code review by Andre Plotnikov)">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HW6/HW6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paradigms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paradigms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paradigms/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paradigms/Paradigms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Paradigms/src/lect1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/.idea/HW11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Asserts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainFilesChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainStdChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Randomized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/TestCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/BaseTest$Op.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/BinaryOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/CommonExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/CommonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Divide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Divide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/DoubleExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/DoubleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/DoubleExpressionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/DoubleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/ExpressionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/ExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Multiply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Subtract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/ToMiniString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/TripleExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/TripleExpressionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/TripleExpressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Variable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Either$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Either$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Either.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/ParserAbsSquareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/ParserShiftsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/script.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/HW11/test.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/MyParser.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/META-INF/MyParser.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/Asserts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/MainChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/MainFilesChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/MainStdChecker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/Randomized.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/base/TestCounter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/BaseTest$Op.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/CommonExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/ToMiniString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/TripleExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/Variable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/BinaryOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/CheckedAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/CheckedDivide.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/CheckedMultiply.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/CheckedNegate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/CheckedSubtract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/DivisionByZeroException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/ExceptionsPowLog2Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/ExceptionsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/ExpressionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/ExpressionParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/InvalidSymbolsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/MathExpressionException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/OverflowException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/Parser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/ParsingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/UnaryOperation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/exceptions/UnderflowException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/Either$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/Either$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/Either.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/ParserTest$ExpException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/ParserTest$Reason.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/ParserTest$TExpression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/ParserTest$Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/out/production/MyParser/expression/parser/ParserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/MainChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/MainFilesChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/MainStdChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/Randomized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/base/TestCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/CommonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/ToMiniString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/TripleExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/BinaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/CheckedAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/CheckedDivide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/CheckedMultiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/CheckedNegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/CheckedSubtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/DivisionByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/ExceptionsPowLog2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/ExceptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/ExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/ExpressionParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/InvalidSymbolsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/MathExpressionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/OverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/ParsingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/UnaryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/exceptions/UnderflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/parser/Either.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/MyParser/src/expression/parser/ParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RunMe/RunMe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/AbstractQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/AbstractQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/ArrayQueueTestLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/ArrayQueueTestLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/LinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/LinkedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/queue/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +187,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YgHkcp6HMFJadgRqNENx8HhSFe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,10 +199,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../paradigms-2020-solutions/java-solutions/queue" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,10 +242,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQueueToArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.ArrayQueueToArrayTest" />
+    <configuration name="ArrayQueueTestLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.ArrayQueueTestLocal" />
       <module name="HW4" />
-      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="queue.*" />
@@ -79,9 +255,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedQueueTestLocal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.LinkedQueueTestLocal" />
+    <configuration name="ArrayQueueToArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.ArrayQueueToArrayTest" />
       <module name="HW4" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="queue.*" />
@@ -121,19 +298,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedQueueTestLocal" />
       <item itemvalue="Application.ArrayQueueTest" />
       <item itemvalue="Application.ArrayQueueToArrayTest" />
       <item itemvalue="Application.QueueToArrayTest" />
       <item itemvalue="Application.QueueFunctionsTest" />
+      <item itemvalue="Application.ArrayQueueTestLocal" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.QueueFunctionsTest" />
         <item itemvalue="Application.QueueToArrayTest" />
+        <item itemvalue="Application.ArrayQueueTestLocal" />
         <item itemvalue="Application.ArrayQueueTest" />
         <item itemvalue="Application.ArrayQueueToArrayTest" />
-        <item itemvalue="Application.LinkedQueueTestLocal" />
       </list>
     </recent_temporary>
   </component>
@@ -155,11 +332,26 @@
       <workItem from="1584021999871" duration="13000" />
       <workItem from="1584023359740" duration="43000" />
       <workItem from="1584023440348" duration="1266000" />
+      <workItem from="1584620494495" duration="2862000" />
+      <workItem from="1584631302085" duration="2148000" />
+      <workItem from="1585062871646" duration="9230000" />
     </task>
+    <task id="LOCAL-00001" summary="ArrayQueue is not reversed anymore&#10;Required changes are applied (code review by Andre Plotnikov)">
+      <created>1585072245872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585072245872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ArrayQueue is not reversed anymore&#10;Required changes are applied (code review by Andre Plotnikov)" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayQueue is not reversed anymore&#10;Required changes are applied (code review by Andre Plotnikov)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" timestamp="1583357472702">
@@ -182,42 +374,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1583401988235" />
-    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1584022009262">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1585072250641">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584022009262" />
-    <state width="1237" height="232" key="GridCell.Tab.0.bottom" timestamp="1584024718195">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1585072250641" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1585070931896">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="232" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584024718195" />
-    <state width="1237" height="232" key="GridCell.Tab.0.center" timestamp="1584024718195">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585070931896" />
+    <state width="1237" height="232" key="GridCell.Tab.0.bottom" timestamp="1585072285782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="232" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584024718195" />
-    <state width="1237" height="232" key="GridCell.Tab.0.left" timestamp="1584024718195">
+    <state width="1237" height="232" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585072285782" />
+    <state width="1237" height="232" key="GridCell.Tab.0.center" timestamp="1585072285782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="232" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584024718195" />
-    <state width="1237" height="232" key="GridCell.Tab.0.right" timestamp="1584024718195">
+    <state width="1237" height="232" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585072285782" />
+    <state width="1237" height="232" key="GridCell.Tab.0.left" timestamp="1585072285782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="232" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584024718195" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1584008004255">
+    <state width="1237" height="232" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585072285782" />
+    <state width="1237" height="232" key="GridCell.Tab.0.right" timestamp="1585072285782">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584008004255" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1584008004255">
+    <state width="1237" height="232" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585072285782" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585072285779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584008004255" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1584008004255">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585072285779" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1585072285779">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584008004255" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1584008004255">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585072285779" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1585072285778">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584008004255" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585072285778" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1585072285779">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585072285779" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1585072256113">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1585072256113" />
     <state x="371" y="97" key="extract.method.dialog" timestamp="1583401562050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -226,6 +426,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1583357731723" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1584621465289">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584621465289" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1583930061168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

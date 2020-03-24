@@ -171,14 +171,14 @@ public class ExpressionParser<T> implements Parser {
             getNextOperator();
             return new Negate<>(getExpressionVariableAndConst(), myAlgebra);
         }
-        throw new NotValidSymbolException(pos, expression, getError());
+        throw new InvalidSymbolException(pos, expression, getError());
     }
 
     private Operator checkNextOperator(int pos) throws ParserException {
         return getOperator(pos);
     }
 
-    private Operator getOperator(int pos) throws NotValidSymbolException {
+    private Operator getOperator(int pos) throws InvalidSymbolException {
         if (pos >= len)
             return Operator.ENDLINE;
         for (Operator A : Operator.values()) {
@@ -196,7 +196,7 @@ public class ExpressionParser<T> implements Parser {
             return Operator.VARIABLE;
         }
 
-        throw new NotValidSymbolException(pos, expression, getError());
+        throw new InvalidSymbolException(pos, expression, getError());
     }
 
     private void getNextOperator() throws ParserException{

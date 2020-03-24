@@ -1,8 +1,5 @@
 package queue;
 
-import java.util.function.Function;
-import java.util.function.Predicate;
-
 public class LinkedQueue extends AbstractQueue implements Queue {
     private Node head;
     private Node tail;
@@ -11,7 +8,7 @@ public class LinkedQueue extends AbstractQueue implements Queue {
 
     //pre: true
     public void doEnqueue(Object element) {
-        if (size == 1) {
+        if (size == 0) {
             tail = new Node(element, null);
             head = tail;
         } else {
@@ -42,32 +39,8 @@ public class LinkedQueue extends AbstractQueue implements Queue {
     }
     //post: the queue is cleared; size = 0; head = tail;
 
-    @Override
-    public Queue filter(Predicate p) {
-        LinkedQueue q = new LinkedQueue();
-        Node cur = head;
-        int cnt = 0;
-        for (int i = size - 1; i >= 0; i--) {
-            if (p.test(cur.value)) {
-                q.enqueue(cur.value);
-                cnt++;
-            }
-            cur = cur.next;
-        }
-        q.size = cnt;
-        return q;
-    }
-
-    @Override
-    public Queue map(Function f) {
-        LinkedQueue q = new LinkedQueue();
-        Node cur = head;
-        for (int i = size - 1; i >= 0; i--) {
-            q.enqueue(f.apply(cur.value));
-            cur = cur.next;
-        }
-//        q.size = cnt;
-        return q;
+    public Queue create() {
+        return new LinkedQueue();
     }
 
     private class Node {

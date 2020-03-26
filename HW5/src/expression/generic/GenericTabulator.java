@@ -14,7 +14,7 @@ public class GenericTabulator implements Tabulator {
         switch (mode) {
             case "i":
                 return setTable(this::applyInteger, 
-                        new ExpressionParser<>(new IntegerAlgebra()).parse(expression), 
+                        new ExpressionParser<>(new IntegerAlgebra()).parse(expression),
                         x1, x2, y1, y2, z1, z2);
             case "d":
                 return setTable(this::applyDouble, 

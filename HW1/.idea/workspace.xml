@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="652dc4e7-6335-4acf-9183-3af6c98d5fb6" name="Default Changelist" comment="" />
+    <list default="true" id="652dc4e7-6335-4acf-9183-3af6c98d5fb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/Variable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/exceptions/NotValidSymbolException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/exceptions/WrongBracketsBalanceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/exceptions/WrongBracketsBalanceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/parser/ExpressionParser$Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/parser/ExpressionParser$Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/parser/ExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/out/production/untitled4/expression/parser/ExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/src/expression/generic/GenericTabulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/src/expression/generic/GenericTabulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5/src/expression/parser/ExpressionParser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XNv07rD7eFkO4OhhfXgSI2TwC5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,9 +38,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/expression/exceptions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -151,6 +167,7 @@
       <workItem from="1582206832425" duration="2069000" />
       <workItem from="1583960636803" duration="3513000" />
       <workItem from="1583964357874" duration="1824000" />
+      <workItem from="1585073334871" duration="1412000" />
     </task>
     <servers />
   </component>
